@@ -34,7 +34,7 @@ p{
 
 .main-content{
     width: 60%;
-    margin: 7% auto 7% auto;
+    margin: 10% auto 10% auto;
 }
 
 /*START NAVBAR*/
@@ -42,6 +42,8 @@ p{
     width: 100%;
     background-color:#1E1E1E;
     overflow: auto;
+    position: fixed;
+    top: 0;
 }
 
 .navbar a {
@@ -89,8 +91,37 @@ h1.lara{
 /*END ABOUT ME*/
 
 /*START FORMATION*/
-h1.certificates{
+.container{
+    width: 55%;
+    height: 150px;
+    overflow-x: scroll;
+    background-color: #1E1E1E;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 #F99DBC;
+    margin-left: 23%;
+}
+
+.programs-img{
+    display: flex;
+    flex-direction: row;
+}
+
+div.programs-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 15px #1E1E1E;
+    margin-right: 50px;
+}
+
+h1.courses{
     margin-top: 7%;
+    margin-bottom: 5%;
+    font-size: 800%;
+}
+
+img.learned:hover{
+
 }
 /*END FORMATION*/
 
