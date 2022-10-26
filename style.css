@@ -92,19 +92,21 @@ h1.lara{
 
 /*START FORMATION*/
 .container{
-    width: 55%;
+    width: 50%;
     height: 150px;
     overflow-x: scroll;
+    overflow-y: hidden;
     background-color: #1E1E1E;
     padding: 2%;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 #F99DBC;
-    margin-left: 23%;
+    margin:auto ;
 }
 
 .programs-img{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 div.programs-img img{
@@ -115,21 +117,67 @@ div.programs-img img{
 }
 
 h1.courses{
-    margin-top: 7%;
+    margin-top: 10%;
     margin-bottom: 5%;
     font-size: 800%;
 }
 
-img.learned:hover{
-
+button.text1{
+    
 }
 
-img.learning:hover{
-
+.programs-img .fadebox1{
+    background-color: #1E1E1E;
+    box-shadow: 0 4px 8px 0 #F99DBC;
+    position: absolute;
+    margin: auto;
+    left: 47%;
+    top: 45%;
+    border-radius: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color: #f07aa1;
+    font-weight: bold;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100px;
+    height: 50px;
+    padding-top: 1%;
 }
 
-img.soon:hover{
+.programs-img:hover .fadebox1{
+    opacity: 1;
+}
 
+.programs-img .text1{
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.programs-img .title1{
+    font-size: 15px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+
+.programs-img:hover .title1{
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+.fadebox1:hover{
+    color: #1E1E1E;
+    background-color: #F99DBC;
+    box-shadow: 0 4px 8px 0 #1E1E1E;
 }
 /*END FORMATION*/
 
