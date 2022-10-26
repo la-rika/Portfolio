@@ -91,8 +91,13 @@ h1.lara{
 /*END ABOUT ME*/
 
 /*START FORMATION*/
+.study{
+    width: 60%;
+    margin: 10% auto 10% auto;
+}
+
 .container{
-    width: 50%;
+    width: 55%;
     height: 150px;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -100,13 +105,12 @@ h1.lara{
     padding: 2%;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 #F99DBC;
-    margin:auto ;
+    margin: auto;
 }
 
 .programs-img{
     display: flex;
     flex-direction: row;
-    cursor: pointer;
 }
 
 div.programs-img img{
@@ -116,68 +120,370 @@ div.programs-img img{
     margin-right: 50px;
 }
 
+.overlay1 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.html:hover .overlay1 {
+    opacity: 0.9;
+}
+
+.text1 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay2 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.css:hover .overlay2 {
+    opacity: 0.9;
+}
+
+.text2{
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay3 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.js:hover .overlay3 {
+    opacity: 0.9;
+}
+
+.text3 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay4 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.bs:hover .overlay4 {
+    opacity: 0.9;
+}
+
+.text4 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay5 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.ajax:hover .overlay5 {
+    opacity: 0.9;
+}
+
+.text5{
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay6 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.json:hover .overlay6 {
+    opacity: 0.9;
+}
+
+.text6 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay7 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.react:hover .overlay7{
+    opacity: 0.9;
+}
+
+.text7{
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay8 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.sql:hover .overlay8 {
+    opacity: 0.9;
+}
+
+.text8 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay9 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.angular:hover .overlay9 {
+    opacity: 0.9;
+}
+
+.text9{
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay10 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.azure:hover .overlay10{
+    opacity: 0.9;
+}
+
+.text10{
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay11{
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.linux:hover .overlay11{
+    opacity: 0.9;
+}
+
+.text11 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay12 {
+    position: relative;
+    bottom: 110px;
+    width: 100px;
+    height: 110px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F99DBC;
+    border-radius: 25px;
+}
+
+.python:hover .overlay12 {
+    opacity: 0.9;
+}
+
+.text12 {
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 h1.courses{
     margin-top: 10%;
     margin-bottom: 5%;
     font-size: 800%;
-}
-
-button.text1{
-    
-}
-
-.programs-img .fadebox1{
-    background-color: #1E1E1E;
-    box-shadow: 0 4px 8px 0 #F99DBC;
-    position: absolute;
-    margin: auto;
-    left: 47%;
-    top: 45%;
-    border-radius: 25px;
-    font-family: 'Quicksand', sans-serif;
-    color: #f07aa1;
-    font-weight: bold;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-    opacity: 0;
-    width: 100px;
-    height: 50px;
-    padding-top: 1%;
-}
-
-.programs-img:hover .fadebox1{
-    opacity: 1;
-}
-
-.programs-img .text1{
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-}
-
-.programs-img .title1{
-    font-size: 15px;
-    text-transform: uppercase;
-    opacity: 0;
-    transition-delay: 0.2s;
-    transition-duration: 0.3s;
-}
-
-.programs-img:hover .title1{
-    opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-}
-
-.fadebox1:hover{
-    color: #1E1E1E;
-    background-color: #F99DBC;
-    box-shadow: 0 4px 8px 0 #1E1E1E;
 }
 /*END FORMATION*/
 
