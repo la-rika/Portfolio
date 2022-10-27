@@ -517,9 +517,45 @@ h1.courses{
 /*START CAREER PATH*/
 h1.career{
     margin-top: 5%;
+    margin-bottom: 15%;
     font-size: 800%;
 }
+
+.container-goals{
+    width: 40%;
+    margin: 5% auto;
+}
 /*END CAREER PATH*/
+
+/*START CONNECT*/
+h1.connect{
+    margin-top: 10%;
+    font-size: 800%;
+    margin-bottom: 20%;
+}
+
+.linkedin{
+    margin-right: 5%;
+}
+
+form{
+    margin-top: 4%;
+}
+
+label.name{
+    margin-right: 1%;
+}
+
+label.message{
+    text-align: left;
+}
+
+label{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin-right: 2.4%;
+}
+/*END CONNECT*/
 
 /*START FOOTER*/
 footer{
