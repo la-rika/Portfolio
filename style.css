@@ -538,12 +538,8 @@ h1.connect{
     margin-right: 5%;
 }
 
-form{
-    margin-top: 4%;
-}
-
-label.name{
-    margin-right: 1%;
+.gmail{
+    margin-left: 5%;
 }
 
 label.message{
