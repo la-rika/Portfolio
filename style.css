@@ -507,6 +507,11 @@ h1.courses{
     margin: auto auto 7% auto;
     text-align: left;
 }
+
+.cert-link:hover{
+    border: solid 1px #F99DBC;
+    padding: 1%;
+}
 /*END FORMATION*/
 
 /*START FOOTER*/
