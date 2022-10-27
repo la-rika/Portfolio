@@ -551,6 +551,10 @@ label{
     color: white;
     margin-right: 2.4%;
 }
+
+label.email{
+    margin-right: 4%;
+}
 /*END CONNECT*/
 
 /*START FOOTER*/
