@@ -482,8 +482,30 @@ div.programs-img img{
 
 h1.courses{
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     font-size: 800%;
+}
+
+.cert-title{
+    margin-bottom: 5%;
+}
+
+.cert-img{
+    float: left;
+    margin-right: 2%;
+    width:20%;
+}
+
+.cert-link{
+    color: #f07aa1;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.cert-row{
+    margin: auto auto 7% auto;
+    text-align: left;
 }
 /*END FORMATION*/
 
