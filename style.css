@@ -32,6 +32,10 @@ p{
     line-height: 1.5;
 }
 
+a{
+    text-decoration: none;
+}
+
 .main-content{
     width: 60%;
     margin: 10% auto 10% auto;
@@ -511,6 +515,10 @@ h1.courses{
 .cert-link:hover{
     border: solid 1px #F99DBC;
     padding: 1%;
+}
+
+div.programs-img a:active{
+    color: white;
 }
 /*END FORMATION*/
 
