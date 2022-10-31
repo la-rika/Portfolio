@@ -14,17 +14,33 @@
 <body>
     
     <script>
-        alert("Hello! Welcome to my personal portfolio. Here you can find all the information about me and how I started my learning journey!")
+        //alert("Hello! Welcome to my personal portfolio. Here you can find all the information about me and how I started my learning journey!")
+
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('links  ')[0]
+
+        toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+        })   
+    
     </script>
 
-    <div class="navbar">
-        <a href="index.html">ABOUT ME</a> 
-        <a href="formation.html">FORMATION</a> 
-        <a href="career.html">CAREER PATH</a> 
-        <a href="connect.html">CONNECT WITH ME</a>
-    </div>
+    <nav>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">about me</a></li>
+                <li><a href="formation.html">formation</a></li>
+                <li><a href="career.html">career path</a></li>
+                <li><a href="connect.html">connect with me</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    
 
     <div class="main-content">
         <img class="lara-pic"  src="images/lara_image-modified.png" alt="lara profile picture" style="width: 250px; height:250px">
