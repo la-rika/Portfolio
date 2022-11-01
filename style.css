@@ -72,54 +72,52 @@ a{
     color: #1E1E1E;
 }*/
 
-nav{
-    background-color: #1E1E1E;
-    height: 2%;
+nav {
+    height: 80px;
+    background-color: #222;
+    border-bottom: 1px solid #555
+}
+
+.list-item {
     width: 100%;
 }
 
-.links{
-    display: inline-block;
-    margin: 1% 4%;
-    padding: 1%;
-    border-radius: 20%;
+.list-item li {
+    float: left;
+    padding: 1.5% 8%;
+    border-radius: 3px;
 }
 
-.links ul li a{
+.list-item li a {
     color: #F99DBC;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-
-.toggle-button {
-    position: absolute;
-    top: 4%;
-    right: 4%;
+.icon {
     display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
 }
 
-.toggle-button .bar {
-    height: 2px;
-    width: 100%;
-    background-color: #F99DBC;
-    border-radius: 10px;
+.toggle {
+    float: right;
+    margin: 20px;
+    color: #EEE;
+    font-size: 30px;
+    border: 1px solid #EEE;
+    padding: 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-nav ul li a:hover {
+.list-item li:hover {
     text-shadow: 4px 4px 5px #F99DBC;
 }
-  
-nav ul li:active {
-    background-color: #F99DBC;
-}
 
-nav ul li a:active{
+.list-item li:active{
+    background-color: #F99DBC;
     color: #1E1E1E;
 }
 /*END NAVBAR*/
@@ -631,39 +629,33 @@ footer p{
 
 /*MEDIA QUERIES*/
 @media (max-width: 767px) {
-    nav{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .links {
-        display: non;
+    .icon {
+        display: block;
         width: 100%;
+        height: 80px;
+        background-color: #1E1E1E;
     }
 
-    .links ul {
+    .list-item {
         width: 100%;
-        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -4px;
+        background-color: #1E1E1E;
+        display: none;
     }
 
-    .links ul li {
+    .list-item li {
         text-align: center;
-    }
-
-    .links ul li a {
-        padding: .5rem 1rem;
+        display: block;
+        border-bottom: 1px solid #1E1E1E;
+        float: none;
     }
 }
 
 @media (min-width: 767px) and (max-width:1024px) {
-    nav ul li{
-        margin: 1% 4%;
-        font-size: 80%
-    }
+
 }
 
 @media (min-width:1024px) {

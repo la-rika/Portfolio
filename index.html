@@ -15,30 +15,33 @@
     
     <script>
         //alert("Hello! Welcome to my personal portfolio. Here you can find all the information about me and how I started my learning journey!")
+        $('.toggle').click(function () {
+    "use strict";
+    $('nav ul').slideToggle();
+});
 
-        const toggleButton = document.getElementsByClassName('toggle-button')[0]
-        const navbarLinks = document.getElementsByClassName('links  ')[0]
 
-        toggleButton.addEventListener('click', () => {
-        navbarLinks.classList.toggle('active')
-        })   
+
+$(window).resize(function () {
+    "use strict";
+    if ($(window).width() > 780) {
+        $('nav ul').removeAttr('style');
+    }
+});
+
     
     </script>
 
     <nav>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="links">
-            <ul>
-                <li><a href="index.html">about me</a></li>
-                <li><a href="formation.html">formation</a></li>
-                <li><a href="career.html">career path</a></li>
-                <li><a href="connect.html">connect with me</a></li>
-            </ul>
+        <div class="icon">
+            <span class="toggle">☰</span>
         </div>
+        <ul class="list-item">
+            <li><a href="index.html">about me</a></li>
+            <li><a href="formation.html">formation</a></li>
+            <li><a href="career.html">career path</a></li>
+            <li><a href="connect.html">connect with me</a></li>
+        </ul>      
     </nav>
 
 
