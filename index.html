@@ -6,45 +6,29 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Lara Forlani Portfolio</title>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="script.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <script>
-        //alert("Hello! Welcome to my personal portfolio. Here you can find all the information about me and how I started my learning journey!")
-        $('.toggle').click(function () {
-    "use strict";
-    $('nav ul').slideToggle();
-});
-
-
-
-$(window).resize(function () {
-    "use strict";
-    if ($(window).width() > 780) {
-        $('nav ul').removeAttr('style');
-    }
-});
-
-    
-    </script>
-
-    <nav>
-        <div class="icon">
-            <span class="toggle">☰</span>
+    <nav class="navbar">
+        <div class="brand-title"><a href="index.html">Lara Misia Forlani</a> </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="formation.html">Formation</a></li>
+                <li><a href="goals.html">Goals</a></li>
+                <li><a href="connect.html">Connect with me</a></li>
+            </ul>
         </div>
-        <ul class="list-item">
-            <li><a href="index.html">about me</a></li>
-            <li><a href="formation.html">formation</a></li>
-            <li><a href="career.html">career path</a></li>
-            <li><a href="connect.html">connect with me</a></li>
-        </ul>      
     </nav>
-
-
+        
     <div class="main-content">
         <img class="lara-pic"  src="images/lara_image-modified.png" alt="lara profile picture" style="width: 250px; height:250px">
         <h1 class="lara">I'm Lara</h1>
