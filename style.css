@@ -722,6 +722,15 @@ footer p{
     table{
         display: block;
     }
+
+    h1.goals{
+        font-size: 350%;
+    }
+
+    .linkedin, .gmail, .github{
+        display: block;
+        margin: 15% auto;
+    }
 }
 
 @media (min-width: 767px) and (max-width:1024px) {
