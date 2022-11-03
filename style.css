@@ -700,7 +700,7 @@ footer p{
     }
 
     .cert-link{
-        font-size: x-small;
+        font-size: small;
     }
     
     h2{
@@ -708,11 +708,11 @@ footer p{
     }
 
     h4{
-        font-size:small;
+        font-size:medium;
     }
 
     p{
-        font-size: x-small;
+        font-size: small;
     }
 
     .container{
@@ -730,6 +730,10 @@ footer p{
     .linkedin, .gmail, .github{
         display: block;
         margin: 15% auto;
+    }
+
+    h1.connect{
+        display: none;
     }
 }
 
