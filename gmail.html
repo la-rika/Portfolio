@@ -29,15 +29,15 @@
         </div>
     </nav>
     <div class="main-content">
-        <form action="mailto:laramisiaforlani@gmail.com">
-            <label class="name">Name</label>
-            <input type="text" name="yourname"><br><br>
-            <label class="email">Mail</label>
-            <input type="email" name="YourEmail" id=""><br><br>
-            <br>
-            <label class="message">Message</label><br><br>
-            <textarea name="" id="" cols="40" rows="10"></textarea><br><br>
-            <input type="submit">
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <h4>Name:</h4><br>  
+            <input type="text" name="name" style="border-radius: 25%;"><br><br>
+            <h4>Email:</h4><br>
+            <input type="text" name="mail" style="border-radius: 25%;"><br><br>
+            <h4>Message:</h4><br>
+            <textarea name="message" id="" cols="30" rows="10" style="border-radius: 10%;"></textarea><br><br>
+            <input class="btn" type="submit" value="Send">
+            <input class="btn" type="reset" value="Reset">
         </form>
     </div>
     
