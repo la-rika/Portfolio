@@ -103,7 +103,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 21px;   
 }
 
 .toggle-button .bar {
@@ -423,7 +423,7 @@ div.programs-img img{
 }
 
 .text9{
-    color: #1E1E1E;
+    color: #1E1E1E;navbar
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -633,13 +633,9 @@ h1.connect{
 form{
     border: solid 3px #F99DBC;
     padding: 3%;
-    width: 60%;
+    width: 500px;
     margin: 0 auto;
     border-radius: 10%;
-}
-
-label.message{
-    text-align: left;
 }
 
 label{
@@ -648,9 +644,7 @@ label{
     margin-right: 2.4%;
 }
 
-label.email{
-    margin-right: 4%;
-}
+
 
 input.btn{
     background-color: #1E1E1E;
@@ -776,6 +770,10 @@ footer p{
 
     h1.connect{
         display: none;
+    }
+
+    form{
+        width: 300px;
     }
 }
 
