@@ -423,7 +423,7 @@ div.programs-img img{
 }
 
 .text9{
-    color: #1E1E1E;navbar
+    color: #1E1E1E;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -685,6 +685,8 @@ footer p{
 /*MEDIA QUERIES*/
 
 /* MOBILE FORMAT */
+
+
 @media (max-width: 767px) {
     .brand-title{
         margin: 1rem;
@@ -789,6 +791,11 @@ footer p{
 
     table{
         display: block;
+    }
+
+    form{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
