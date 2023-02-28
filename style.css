@@ -544,6 +544,10 @@ table{
     width: 100%;
 }
 
+.projects{
+    padding: 2%;
+}
+
 th{
     font-size: large;
     color: #F99DBC;
@@ -801,7 +805,9 @@ footer p{
 
 /* DESKTOP FORMAT */
 @media (min-width:1024px) {
-    
+    .projects{
+        display: block;
+    }
 }
 
 
