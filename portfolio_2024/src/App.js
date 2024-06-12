@@ -1,8 +1,13 @@
-
+import React from "react";
 
 function App() {
   return (
-  <Brow
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Homepage />}>
+      </Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 
