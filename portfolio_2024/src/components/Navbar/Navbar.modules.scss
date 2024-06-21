@@ -1,0 +1,78 @@
+.navbar-container {
+    width: 100%;
+    height: 173px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    font-size: 34px;
+    display: flex;
+    height: fit-content;
+    
+
+    &:hover {
+        cursor: pointer;
+
+        .letter--1 {
+            animation: bounce .4s ease infinite alternate;
+        }
+
+        .letter--2 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.1s;
+        }
+
+        .letter--3 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.2s;
+        }
+
+        .letter--4 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.3s;
+        }
+
+        .letter--5 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.4s;
+        }
+
+        .letter--6 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.5s;
+        }
+
+        .letter--7 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.6s;
+        }
+
+        .letter--8 {
+            animation: bounce .4s ease infinite alternate;
+            animation-delay: 0.7s;
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0%);
+                //decidere se lasciarla o meno
+                text-shadow:
+                0 5px 0 #DA768E,
+                0 2px 3px rgba(0, 0, 0, 1); 
+            }
+
+            to {
+                transform: translateY(-20px);
+                text-shadow:  0 50px 0 #201618,
+                0 0px 20px rgba(0, 0, 0, .8);
+            }
+        }
+    }
+
+    .letter {
+        margin: 0;
+        height: fit-content;
+        text-shadow:  0 0px 20px rgba(0, 0, 0, .8);
+    }
+}
