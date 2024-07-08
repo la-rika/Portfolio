@@ -1,0 +1,16 @@
+
+.footer-container{
+    height: 20%;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+
+    &__contacts{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 15px;
+    }
+}
