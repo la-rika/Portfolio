@@ -1,7 +1,15 @@
 body{
-    background-color: #413134;
+    background-color: #1E1E1E;
     margin: 0;
     padding: 55px 103px;
+}
+
+.pink{
+    color: #DA768E;
+}
+
+.white{
+    color: #E4E4E4;
 }
 
 .fancy-text{
@@ -12,8 +20,9 @@ body{
 }
 
 .normal-text{
-    font-family: "Red Hat Display", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #E4E4E4;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 200;
 }
