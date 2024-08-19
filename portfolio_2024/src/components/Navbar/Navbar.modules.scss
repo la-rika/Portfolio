@@ -9,7 +9,7 @@
     font-size: 1.5rem;
     display: flex;
     height: fit-content;
-    
+    text-decoration: none;
 
     &:hover {
         cursor: pointer;
@@ -58,7 +58,7 @@
                 transform: translateY(0%);
                 //decidere se lasciarla o meno
                 text-shadow:
-                0 5px 0 #DA768E,
+                0 5px 0 #ffacc9,
                 0 2px 3px rgba(0, 0, 0, 1); 
             }
 

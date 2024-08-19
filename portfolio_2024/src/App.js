@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Homepage } from "./pages/Homepage/Homepage";
 import { About } from "./pages/About/About";
 import { Navbar } from "./components/Navbar/Navbar";
@@ -9,17 +9,16 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />}>
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Homepage />} />
+            <Route path="/contacts" element={<Homepage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
       <Footer />
     </>
   );
 }
 
-export default App;
+export default  App;

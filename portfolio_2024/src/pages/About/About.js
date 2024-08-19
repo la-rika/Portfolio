@@ -2,6 +2,6 @@ import React from "react";
 
 export const About = () =>{
     return(
-        <>sdfsfsdf</>
+        <h1>ciao</h1>
     )
 }
