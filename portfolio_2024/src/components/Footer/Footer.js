@@ -4,8 +4,8 @@ import "./Footer.modules.scss"
 export const Footer = () => {
     return (
         <div className="footer-container">
-            <div className="content  normal-text">
-                <p className="pink">&copy; Lara Misia Forlani</p>
+            <div className="normal-text">
+                <p className="white">&copy; Lara Misia Forlani</p>
             </div>
         </div>
     )

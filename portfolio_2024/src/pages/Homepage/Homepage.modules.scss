@@ -21,14 +21,13 @@
 
     &__big {
         font-weight: 400;
-        font-size: 4.5rem;
+        font-size: 5rem;
         margin: 0;
     }
 
     &__little{
         font-size: 1.2rem;
         margin: 0;
-        color: #E4E4E4;
         text-decoration: none;
     }
 }
@@ -46,7 +45,7 @@
 .underline {
     width: 100%;
     height: 1px;
-    background-color: #E4E4E4;
+    background-color: #DA768E;
     margin-top: 3px;
     animation-duration: 1s;
     animation-name: changewidth;

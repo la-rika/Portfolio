@@ -1,10 +1,6 @@
 
 .footer-container{
     width: 100%;
-}
-
-.content{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    position: absolute;
+    bottom: 55px;
 }
