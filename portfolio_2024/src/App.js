@@ -9,16 +9,15 @@ const App = () => {
   return (
     <>
       <Navbar />
-        <Routes>
-          <Route path="/" element={<Homepage />}>
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Homepage />} />
-            <Route path="/contacts" element={<Homepage />} />
-          </Route>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Homepage />} />
+        <Route path="/contacts" element={<Homepage />} />
+      </Routes>
       <Footer />
     </>
   );
 }
 
-export default  App;
+export default App;
