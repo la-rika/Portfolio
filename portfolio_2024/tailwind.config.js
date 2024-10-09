@@ -20,7 +20,8 @@ module.exports = {
       colors: {
         "base-color": "var(--base-color)",
         "dark-base": "var(--dark-base)",
-        "body-text":"var(--body-text)"
+        "body-text":"var(--body-text)",
+        "light-pink":"var(--light-pink)"
       }
     },
     plugins: [],
