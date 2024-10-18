@@ -21,7 +21,14 @@ module.exports = {
         "base-color": "var(--base-color)",
         "dark-base": "var(--dark-base)",
         "body-text":"var(--body-text)",
-        "light-pink":"var(--light-pink)"
+        "light-pink":"var(--light-pink)",
+        "dark-pink":"var(--dark-pink)",
+        "white-grey":"var(--white-grey)"
+      },
+      zIndex:{
+        "n1":"-1",
+        "0":"0",
+        "1":"1"
       }
     },
     plugins: [],
