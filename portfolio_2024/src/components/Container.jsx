@@ -1,8 +1,8 @@
 import "../index.css"
 
-const Container = ({children, last})=>{
+const Container = ({children, last, className})=>{
     return(
-        <div className={!last ? "px-16 min-h-fit w-screen h-screen mb-48" : "px-16 h-fit w-screen"}>
+        <div className={!last ? `${className && className} px-16 w-screen min-h-screen mb-96` : `${className && className} px-16 min-h-screen w-screen`}>
             {children}
         </div>
     )

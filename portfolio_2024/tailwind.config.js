@@ -22,6 +22,7 @@ module.exports = {
         "dark-base": "var(--dark-base)",
         "body-text":"var(--body-text)",
         "light-pink":"var(--light-pink)",
+        "shadow-pink":"var(--shadow-pink)",
         "dark-pink":"var(--dark-pink)",
         "white-grey":"var(--white-grey)"
       },
