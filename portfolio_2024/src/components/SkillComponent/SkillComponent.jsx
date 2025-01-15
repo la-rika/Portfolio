@@ -1,6 +1,7 @@
 import ProgressBar from "../ProgressBar/ProgressBar";
 
 const SkillComponent = ({ skillImg, progress, name, level }) => {
+
     return (
         <div className="flex items-center"> 
             <div>
@@ -8,7 +9,7 @@ const SkillComponent = ({ skillImg, progress, name, level }) => {
             </div>
             <div className="w-full ml-2">
                 <p className="mb-2 text-white">{name}  -  {level}</p>
-                <ProgressBar progress={progress} />
+                <ProgressBar progress={`${progress}`} />
             </div>
         </div>
     )
