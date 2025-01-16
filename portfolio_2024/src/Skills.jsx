@@ -10,7 +10,7 @@ import { ReactComponent as Node } from "./images/node.svg"
 import { ReactComponent as Npm } from "./images/npm.svg"
 import { ReactComponent as Express } from "./images/express.svg"
 import { ReactComponent as Ejs } from "./images/ejs.svg"
-import { ReactComponent as Scss } from "./images/scss.svg"
+import { ReactComponent as Bem } from "./images/bem.svg"
 import { ReactComponent as Tailwind } from "./images/tailwind.svg"
 import { ReactComponent as Typescript } from "./images/typescript.svg"
 import { ReactComponent as Storybook } from "./images/storybook.svg"
@@ -63,11 +63,11 @@ const skills = [
     {
         name: "ejs",
         src: <Ejs />,
-        progress: '30'
+        progress: '20'
     },
     {
-        name: "scss",
-        src: <Scss />,
+        name: "bem",
+        src: <Bem />,
         progress: '80'
     },
     {
@@ -139,7 +139,7 @@ const Skills = () => {
                     <Skill skillImg={<Ejs />} progress={`w-[30%]`} name={"EJS"}
                         level="Beginner" />
 
-                    <Skill skillImg={<Scss />} progress={`w-[80%]`} name={"SCSS"}
+                    <Skill skillImg={<Bem />} progress={`w-[80%]`} name={"SCSS"}
                         level="Advanced" />
 
                     <Skill skillImg={<Tailwind />} progress={`w-[80%]`} name={"TAILWIND"}
