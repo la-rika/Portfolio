@@ -10,7 +10,7 @@ module.exports = {
       lg:"2rem",
       md:"1.5rem",
       sm:"1.125rem",
-      xs:"1rem"
+      xs:"1rem",
     },
     fontFamily:{
       "fancy-text":"var(--fancy-text)",
@@ -24,7 +24,8 @@ module.exports = {
         "light-pink":"var(--light-pink)",
         "shadow-pink":"var(--shadow-pink)",
         "dark-pink":"var(--dark-pink)",
-        "white-grey":"var(--white-grey)"
+        "white-grey":"var(--white-grey)",
+        "chip-bg": "var(--chip-bg)",
       },
       zIndex:{
         "n1":"-1",

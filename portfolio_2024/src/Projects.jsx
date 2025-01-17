@@ -6,8 +6,14 @@ const Projects = () => {
     return (
         <Element id='projects' name='projects'>
             <Container>
-                <h1 className="text-white font-fancy-text text-xl mb-3">PROJECTS</h1>
-                <ProjectCard/>
+                <h1 className="text-white font-fancy-text text-xl mb-8">PROJECTS</h1>
+                <div className="flex flex-col gap-y-14">
+                    <ProjectCard link={"github link"} sourceCode={"github link"} />
+                    <ProjectCard link={"github link"} sourceCode={"github link"} />
+                    <ProjectCard link={"github link"} sourceCode={"github link"} />
+                </div>
+
+
             </Container>
         </Element>
     )
