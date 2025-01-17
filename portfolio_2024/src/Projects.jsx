@@ -2,6 +2,12 @@ import { Element } from "react-scroll";
 import Container from "./components/Container";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 
+// const projects = [
+//     {
+
+//     }
+// ]
+
 const Projects = () => {
     return (
         <Element id='projects' name='projects'>
@@ -12,8 +18,6 @@ const Projects = () => {
                     <ProjectCard link={"github link"} sourceCode={"github link"} />
                     <ProjectCard link={"github link"} sourceCode={"github link"} />
                 </div>
-
-
             </Container>
         </Element>
     )

@@ -23,7 +23,7 @@ const skills = [
     {
         name: "html",
         src: <Html />,
-        progress: '95'
+        progress: '85'
     },
     {
         name: "css",
@@ -102,7 +102,6 @@ const skills = [
     },
 ]
 
-//se le barre dei db sono ancora buggate mettere 40%
 
 const Skills = () => {
     return (

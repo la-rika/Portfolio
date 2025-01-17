@@ -12,7 +12,6 @@ const ProjectCard = ({link, sourceCode}) => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.</p>
                 <p>Demo: {link}</p>
                 <p className="mb-4">Source code: {sourceCode}</p>
-
                 <Chip  skillUsed={"javascript"}/>
             </div>
         </div>
