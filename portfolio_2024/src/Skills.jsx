@@ -63,7 +63,7 @@ const skills = [
     {
         name: "ejs",
         src: <Ejs />,
-        progress: '20'
+        progress: '40'
     },
     {
         name: "bem",
@@ -88,17 +88,17 @@ const skills = [
     {
         name: "mongodb",
         src: <Mongodb />,
-        progress: '20'
+        progress: '40'
     },
     {
         name: "postgre",
         src: <Postgre />,
-        progress: '20'
+        progress: '40'
     },
     {
         name: "sql",
         src: <Sql />,
-        progress: '20'
+        progress: '40'
     },
 ]
 
