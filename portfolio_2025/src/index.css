@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root{
     --base-color: #2F201F;
     --dark-base: #261B1B;
@@ -18,4 +19,5 @@ body{
     background-color: var(--base-color);
     font-family: var(--base-text);
     font-weight: 400;
+    scroll-behavior: smooth;
 }
