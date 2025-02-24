@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 const Homepage = () => {
     return (
         <Element  id='homepage' name='homepage'>
-            <Container >
+            <Container className={"mb-[22rem]"}>
                 <div className="flex justify-between">
                     <div className="w-3/6">
                         <FlowerImg className="absolute -top-12 -left-0 " />

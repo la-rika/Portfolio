@@ -8,9 +8,9 @@ import { ReactComponent as Linkedin } from "./images/linkedin.svg";
 const Contacts = () => {
     return (
         <Element id='contact-me' name='contact-me'>
-            <Container >
+            <Container className={"-mt-36"}>
                 <div className="w-full  flex justify-between">
-                    <div className="flex">
+                    <div className="flex mt-40">
                         <h1 className="text-white font-fancy-text text-xl mb-8">CONTACT ME</h1>
                         <div className="flex mt-7">
                             <Github />
@@ -18,7 +18,7 @@ const Contacts = () => {
                         </div>
                     </div>
                     <div className="w-3/6 h-96">
-                        <FlowerImg className="transform scale-x-[-1] relative bottom-52 right-28" />
+                        <FlowerImg className="absolute transform scale-x-[-1] -right-2" />
                     </div>
                 </div>
             </Container>
