@@ -9,7 +9,7 @@ const Timeline = () => {
         {
             title: "Accenture",
             subtitle: "Custom software engineer",
-            skills: "React | BEM | Typerscript | tailwind | Next",
+            skills: "React | BEM | Typerscript | tailwind | storybook",
             date: "mar 2023 - present",
             type: "job"
         },
