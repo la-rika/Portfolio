@@ -112,7 +112,7 @@ const Skills = () => {
 
                 <div className="grid grid-cols-3 gap-x-16 gap-y-10 mb-10">
                     {skills.map(el => (
-                        <Skill skillImg={el.src} progress={el.progress} name={el.name.toUpperCase()} />
+                        <Skill skillImg={el.src} progress={`w-[${el.progress}%]`} name={el.name.toUpperCase()} />
                     ))}
                 </div>
 
