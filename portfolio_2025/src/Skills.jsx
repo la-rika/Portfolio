@@ -1,6 +1,5 @@
 import { Element } from "react-scroll";
 import Container from "./components/Container";
-import Skill from "./components/SkillComponent/SkillComponent";
 import { ReactComponent as Html } from "./images/html.svg"
 import { ReactComponent as Css } from "./images/css.svg"
 import { ReactComponent as Javascript } from "./images/javascript.svg"
@@ -17,88 +16,107 @@ import { ReactComponent as Storybook } from "./images/storybook.svg"
 import { ReactComponent as Sql } from "./images/sql.svg"
 import { ReactComponent as Postgre } from "./images/postgre.svg"
 import { ReactComponent as Mongodb } from "./images/mongodb.svg"
+import { ReactComponent as Git } from "./images/git.svg"
+import { ReactComponent as Redux } from "./images/redux.svg"
+import { ReactComponent as Api } from "./images/api.svg"
+
 
 
 const skills = [
     {
         name: "html",
         src: <Html />,
-        progress: '85'
+        progress: "confident"
     },
     {
         name: "css",
         src: <Css />,
-        progress: '85'
+        progress: "confident"
     },
     {
         name: "javascript",
         src: <Javascript />,
-        progress: '70'
+        progress: "confident"
     },
     {
         name: "bootstrap",
         src: <Bootstrap />,
-        progress: '70'
+        progress: "confident"
     },
     {
         name: "react",
         src: <React />,
-        progress: '85'
+        progress: "confident"
     },
     {
         name: "node",
         src: <Node />,
-        progress: '70'
+        progress: "almost autonomous"
+    },
+    {
+        name: "redux",
+        src: <Redux />,
+        progress: "almost autonomous"
+    },
+    {
+        name: "api",
+        src: <Api />,
+        progress: "almost autonomous"
     },
     {
         name: "npm",
         src: <Npm />,
-        progress: '40'
+        progress: "confident"
     },
     {
         name: "express",
         src: <Express />,
-        progress: '30'
+        progress: "beginner"
     },
     {
         name: "ejs",
         src: <Ejs />,
-        progress: '40'
+        progress: "beginner"
     },
     {
         name: "bem",
         src: <Bem />,
-        progress: '80'
+        progress: "confident"
     },
     {
         name: "tailwind",
         src: <Tailwind />,
-        progress: '80'
+        progress: "confident"
     },
     {
         name: "typescript",
         src: <Typescript />,
-        progress: '40'
+        progress: "confident"
     },
     {
         name: "storybook",
         src: <Storybook />,
-        progress: '40'
+        progress: "almost autonomous"
     },
     {
         name: "mongodb",
         src: <Mongodb />,
-        progress: '40'
+        progress: "beginner"
     },
     {
         name: "postgre",
         src: <Postgre />,
-        progress: '40'
+        progress: "beginner"
     },
     {
         name: "sql",
         src: <Sql />,
-        progress: '40'
+        progress: "beginner"
+    },
+    {
+        name: "github",
+        src: <Git />,
+        progress: "Confident"
     },
 ]
 
@@ -107,13 +125,36 @@ const Skills = () => {
     return (
         <Element id='skills' name='skills'>
             <Container>
-                <h1 className="text-white font-fancy-text text-xl ">SKILLS</h1>
-                <p className="text-white mb-12">Nothing is at 100% because there's always something new that is waiting to be learned !</p>
+                <h1 className="text-white font-fancy-text text-xl mb-4 ">SKILLS</h1>
 
-                <div className="grid grid-cols-3 gap-x-16 gap-y-10 mb-10">
-                    {skills.map(el => (
-                        <Skill skillImg={el.src} progress={`w-[${el.progress}%]`} name={el.name.toUpperCase()} />
-                    ))}
+                <div>
+                    <h1 className="text-white mb-1">Confident</h1>
+                    <div className="flex flex-wrap gap-8 mb-10 items-center">
+                        {skills.map(el => (
+                            el.progress === "confident" &&
+                            el.src
+                        ))}
+                    </div>
+                </div>
+
+                <div>
+                    <h1 className="text-white mb-1">Almost autonomous</h1>
+                    <div className="flex flex-wrap gap-8 mb-10 items-center">
+                        {skills.map(el => (
+                            el.progress === "almost autonomous" &&
+                            el.src
+                        ))}
+                    </div>
+                </div>
+
+                <div>
+                    <h1 className="text-white mb-2">Beginner</h1>
+                    <div className="flex flex-wrap gap-8 mb-10 items-center">
+                        {skills.map(el => (
+                            el.progress === "beginner" &&
+                            el.src
+                        ))}
+                    </div>
                 </div>
 
             </Container>
