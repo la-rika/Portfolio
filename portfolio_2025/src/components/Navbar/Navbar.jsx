@@ -3,7 +3,7 @@ import "../../index.css"
 
 const Navbar = () => {
     return (
-        <nav className="bg-dark-base w-full h-20 flex items-center justify-between px-16 z-10  fixed top-0">
+        <nav className="bg-dark-base w-full h-20 flex items-center justify-between px-24 z-10  fixed top-0">
             <Link
                 to="homepage"
                 smooth={true}

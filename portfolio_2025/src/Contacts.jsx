@@ -41,7 +41,7 @@ const Contacts = () => {
                                 onblur={() => setClicked({ ...clicked, firstname: false })}
                                 onfocus={() => setClicked({ ...clicked, firstname: true })}
                                 onchange={(e) => setFormaData({ ...formData, firstName: e.target.value })} c
-                                licked={clicked.firstname || formData.firstName}
+                                clicked={clicked.firstname || formData.firstName}
                             />
 
                             <Input label={"Last Name"}
@@ -56,7 +56,7 @@ const Contacts = () => {
                             <Input label={"Email"}
                                 id={"email"}
                                 value={formData.email}
-                                onblur={() => setClicked({ ...clicked, email: true })}
+                                onblur={() => setClicked({ ...clicked, email: false })}
                                 onfocus={() => setClicked({ ...clicked, email: true })}
                                 onchange={(e) => setFormaData({ ...formData, email: e.target.value })}
                                 clicked={clicked.email || formData.email}
@@ -65,7 +65,7 @@ const Contacts = () => {
                             <Input isTextArea label={"Message"}
                                 id={"message"}
                                 value={formData.message}
-                                onblur={() => setClicked({ ...clicked, message: true })}
+                                onblur={() => setClicked({ ...clicked, message: false })}
                                 onfocus={() => setClicked({ ...clicked, message: true })}
                                 onchange={(e) => setFormaData({ ...formData, message: e.target.value })}
                                 clicked={clicked.message || formData.message}

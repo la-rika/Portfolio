@@ -40,17 +40,16 @@ const Timeline = () => {
     ]
 
     return (
-        <div>
+        <div className="flex gap-6 overflow-x-auto space-x-8 no-scrollbar items-end ">
             {history.map((item, index) => {
                 return (
                     <div className="flex mt-3">
-                        <div className="flex flex-col items-center gap-3">
-                            <div className={`rounded-full  w-fit h-fit bg-dark-pink p-2.5 ${item.type === "formation" && "p-1.5"}`}>{item.type === "formation" ? <GraduationIcon /> : <SuitcaseIcon />}</div>
-                            <div className="rounded-full w-0.5 h-full bg-dark-pink"></div>
-                        </div>
-                        <div className={`flex flex-col ml-3 gap-4 mt-3 ${index < history.length - 1 && "pb-10"}`}>
-                            <p className="text-white ml-1">{item.date}</p>
+                        <div className="flex flex-col gap-3">
                             <Card title={item.title} subtitle={item.subtitle && item.subtitle} content={item.skills} />
+                            <div className="flex  items-center gap-3">
+                                <div className={`rounded-full  w-fit h-fit bg-dark-pink p-2.5 ${item.type === "formation" && "p-1.5"}`}>{item.type === "formation" ? <GraduationIcon /> : <SuitcaseIcon />}</div>
+                                <p className="text-white ml-1">{item.date}</p>
+                            </div>
                         </div>
                     </div>
                 )
