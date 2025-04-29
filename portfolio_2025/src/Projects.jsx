@@ -7,33 +7,33 @@ const projects = [
         title: "Project title",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
         link: "github link",
-        source: "github link"
+        source: "github link",
+        screenshots:[
+            "portfolio_2025/src/images/mixItUpApp/mix1.png",
+            "portfolio_2025/src/images/mixItUpApp/mix2.png",
+            "portfolio_2025/src/images/mixItUpApp/mix3.png",
+        ]
     },
     {
         title: "Project title",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
         link: "github link",
-        source: "github link"
+        source: "github link",
+        screenshots:[
+
+        ]
     },
     {
         title: "Project title",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
         link: "github link",
-        source: "github link"
-    },
-    {
-        title: "Project title",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
-        link: "github link",
-        source: "github link"
-    },
-    {
-        title: "Project title",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
-        link: "github link",
-        source: "github link"
+        source: "github link",
+        screenshots:[
+
+        ]
     },
 ]
+
 
 const Projects = () => {
     return (
@@ -42,7 +42,7 @@ const Projects = () => {
                 <h1 className="text-white font-fancy-text text-xl mb-8">PROJECTS</h1>
                 <div className="flex flex-col gap-y-14">
                     {projects.map((el)=>(
-                        <ProjectCard title={el.title} content={el.content} link={el.link} sourceCode={el.source}/>
+                        <ProjectCard title={el.title} content={el.content} link={el.link} sourceCode={el.source} imgs={el.screenshots}/>
                     ))}
                 </div>
             </Container>
