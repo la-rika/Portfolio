@@ -32,7 +32,7 @@ const ProjectCard = ({ title, content, link, imgs, skills }) => {
             <div className="flex flex-col gap-y-4 justify-center col-span-2 ml-8">
                 <p className="text-lg font-medium ">{title} </p>
                 <p>{content}</p>
-                <p className="mb-4">Github: {link}</p>
+                <a className="mb-4 underline" href={link} target="_blank">Github</a>
                 <div className="flex flex-wrap gap-4">
                     {skills.map(el => {
                         return(

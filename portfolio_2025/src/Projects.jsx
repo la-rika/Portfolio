@@ -16,7 +16,7 @@ const projects = [
     {
         title: "Mix It Up!",
         content: "You're having a party but forgot your favourite drink's recipe? No worries with Mix It Up your problem is solved. Find any recipe for alcoholic or non alcoholic drinks or just scroll trough the categories to get inspired.",
-        link: "github link",
+        link: "https://github.com/la-rika/mix_it_up_capstoneProject/tree/main",
         skills:["ejs","html","css","express","node.js","API"],
         screenshots: [
             <Mix1 className="w-full h-full" />, <Mix2 className="w-full h-full" />, <Mix3 className="w-full h-full" />
@@ -25,7 +25,7 @@ const projects = [
     {
         title: "Recipes App",
         content: "With this app the daily question 'what should we eat for dinner?' doesn't exist anymore. Generate full courses and save your favourite ones in your personal online cookbook.",
-        link: "github link",
+        link: "https://github.com/la-rika/recipesApp_react",
         skills:["react","css","redux","bootstrap","node.js","express","mongoDB","mongoose"],
         screenshots: [
             <Recipes1 className="w-full h-full" />, <Recipes2 className="w-full h-full" />, <Recipes3 className="w-full h-full" />
@@ -33,7 +33,7 @@ const projects = [
     },
     {
         title: "Bts Quiz",
-        content: "Simple quiz about the korean boy band BTS.",
+        content: "https://github.com/la-rika/quizApp_vanillaJs",
         link: "github link",
         skills:["html","css","js"],
         screenshots: [
