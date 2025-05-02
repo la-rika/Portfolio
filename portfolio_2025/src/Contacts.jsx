@@ -24,10 +24,10 @@ const Contacts = () => {
                     <div className="flex gap-10">
                         <h1 className="text-white font-fancy-text text-xl mb-8">CONTACT ME</h1>
                         <div className="flex mt-7 gap-7">
-                            <a href="https://github.com/la-rika" target="blank">
+                            <a href="https://github.com/la-rika" target="blank" rel="noreferrer">
                                 <Github />
                             </a>
-                            <a href="https://www.linkedin.com/in/lara-misia-forlani-3b4612234/" target="blank">
+                            <a href="https://www.linkedin.com/in/lara-misia-forlani-3b4612234/" target="blank" rel="noreferrer">
                                 <Linkedin />
                             </a>
 
