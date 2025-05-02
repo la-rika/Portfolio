@@ -17,7 +17,7 @@ const Homepage = () => {
                             <h1 className="font-fancy-text text-white text-xxl font-bold">LARA MISIA<br />FORLANI</h1>
                         </div>
                         <div>
-                            <p className="text-white text-md">and I am a</p>
+                            <p className="text-white text-md">and I'm a</p>
                             <TypeAnimation
                                 sequence={[
                                     // Same substring at the start will only be typed out once, initially

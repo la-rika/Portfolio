@@ -15,27 +15,27 @@ import { ReactComponent as Recipes3 } from "./images/recipes3.svg";
 const projects = [
     {
         title: "Mix It Up!",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
+        content: "You're having a party but forgot your favourite drink's recipe? No worries with Mix It Up your problem is solved. Find any recipe for alcoholic or non alcoholic drinks or just scroll trough the categories to get inspired.",
         link: "github link",
-        source: "github link",
+        skills:["ejs","html","css","express","node.js","API"],
         screenshots: [
             <Mix1 className="w-full h-full" />, <Mix2 className="w-full h-full" />, <Mix3 className="w-full h-full" />
         ]
     },
     {
         title: "Recipes App",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
+        content: "With this app the daily question 'what should we eat for dinner?' doesn't exist anymore. Generate full courses and save your favourite ones in your personal online cookbook.",
         link: "github link",
-        source: "github link",
+        skills:["react","css","redux","bootstrap","node.js","express","mongoDB","mongoose"],
         screenshots: [
             <Recipes1 className="w-full h-full" />, <Recipes2 className="w-full h-full" />, <Recipes3 className="w-full h-full" />
         ]
     },
     {
         title: "Bts Quiz",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida augue at accumsan vestibulum.",
+        content: "Simple quiz about the korean boy band BTS.",
         link: "github link",
-        source: "github link",
+        skills:["html","css","js"],
         screenshots: [
             <Quiz1 className="w-full h-full" />, <Quiz2 className="w-full h-full" />, <Quiz3 className="w-full h-full" />
         ]
@@ -51,7 +51,7 @@ const Projects = () => {
                 <h1 className="text-white font-fancy-text text-xl mb-8">PROJECTS</h1>
                 <div className="flex flex-col gap-y-14">
                     {projects.map((el) => (
-                        <ProjectCard title={el.title} content={el.content} link={el.link} sourceCode={el.source} imgs={el.screenshots} />
+                        <ProjectCard title={el.title} content={el.content} link={el.link} sourceCode={el.source} imgs={el.screenshots} skills={el.skills} />
                     ))}
                 </div>
             </Container>

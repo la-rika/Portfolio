@@ -1,7 +1,8 @@
 
-const Chip = ({ skillUsed})=>{
-    return(
-        <div className={`bg-chip-bg w-24 h-10 flex items-center justify-center rounded-full text-xs px-16 text-black`}>
+const Chip = ({ skillUsed, bg }) => {
+
+    return (
+        <div className={`w-24 h-10 flex items-center justify-center rounded-full text-xs px-10 text-black bg-light-pink `}>
             <p>{skillUsed}</p>
         </div>
     )
