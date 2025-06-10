@@ -33,8 +33,8 @@ const projects = [
     },
     {
         title: "Bts Quiz",
-        content: "https://github.com/la-rika/quizApp_vanillaJs",
-        link: "github link",
+        content: "Simple vanilla js quiz about BTS boyband",
+        link: "https://github.com/la-rika/quizApp_vanillaJs",
         skills:["html","css","js"],
         screenshots: [
             <Quiz1 className="w-full h-full" />, <Quiz2 className="w-full h-full" />, <Quiz3 className="w-full h-full" />
