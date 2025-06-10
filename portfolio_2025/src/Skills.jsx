@@ -51,17 +51,17 @@ const skills = [
     {
         name: "node",
         src: <Node />,
-        progress: "almost autonomous"
+        progress: "beginner"
     },
     {
         name: "redux",
         src: <Redux />,
-        progress: "almost autonomous"
+        progress: "Autonomous"
     },
     {
         name: "api",
         src: <Api />,
-        progress: "almost autonomous"
+        progress: "Autonomous"
     },
     {
         name: "npm",
@@ -96,7 +96,7 @@ const skills = [
     {
         name: "storybook",
         src: <Storybook />,
-        progress: "almost autonomous"
+        progress: "beginner"
     },
     {
         name: "mongodb",
@@ -138,10 +138,10 @@ const Skills = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-white mb-1">Almost autonomous</h1>
+                    <h1 className="text-white mb-1">Autonomous</h1>
                     <div className="flex flex-wrap gap-8 mb-10 items-center">
                         {skills.map(el => (
-                            el.progress === "almost autonomous" &&
+                            el.progress === "Autonomous" &&
                             el.src
                         ))}
                     </div>
