@@ -25,97 +25,97 @@ import { ReactComponent as Api } from "./images/api.svg"
 const skills = [
     {
         name: "html",
-        src: <Html />,
+        src: <Html className="w-14" h-16/>,
         progress: "confident"
     },
     {
         name: "css",
-        src: <Css />,
+        src: <Css className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "javascript",
-        src: <Javascript />,
+        src: <Javascript className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "bootstrap",
-        src: <Bootstrap />,
+        src: <Bootstrap className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "react",
-        src: <React />,
+        src: <React className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "node",
-        src: <Node />,
+        src: <Node className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "redux",
-        src: <Redux />,
+        src: <Redux className="w-14 h-16"/>,
         progress: "Autonomous"
     },
     {
         name: "api",
-        src: <Api />,
+        src: <Api className="w-14 h-16"/>,
         progress: "Autonomous"
     },
     {
         name: "npm",
-        src: <Npm />,
+        src: <Npm className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "express",
-        src: <Express />,
+        src: <Express className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "ejs",
-        src: <Ejs />,
+        src: <Ejs className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "bem",
-        src: <Bem />,
+        src: <Bem className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "tailwind",
-        src: <Tailwind />,
+        src: <Tailwind className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "typescript",
-        src: <Typescript />,
+        src: <Typescript className="w-14 h-16"/>,
         progress: "confident"
     },
     {
         name: "storybook",
-        src: <Storybook />,
+        src: <Storybook className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "mongodb",
-        src: <Mongodb />,
+        src: <Mongodb className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "postgre",
-        src: <Postgre />,
+        src: <Postgre className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "sql",
-        src: <Sql />,
+        src: <Sql className="w-14 h-16"/>,
         progress: "beginner"
     },
     {
         name: "github",
-        src: <Git />,
+        src: <Git className="w-14 h-16"/>,
         progress: "Confident"
     },
 ]
@@ -129,7 +129,7 @@ const Skills = () => {
 
                 <div>
                     <h1 className="text-white mb-1">Confident</h1>
-                    <div className="flex flex-wrap gap-8 mb-10 items-center">
+                    <div className="flex flex-wrap gap-4 md:gap-8 mb-10 items-center">
                         {skills.map(el => (
                             el.progress === "confident" &&
                             el.src
@@ -138,8 +138,8 @@ const Skills = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-white mb-1">Autonomous</h1>
-                    <div className="flex flex-wrap gap-8 mb-10 items-center">
+                    <h1 className="text-white mb-4 md:mb-1">Autonomous</h1>
+                    <div className="flex flex-wrap gap-4 md:gap-8 mb-10 items-center">
                         {skills.map(el => (
                             el.progress === "Autonomous" &&
                             el.src
@@ -148,8 +148,8 @@ const Skills = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-white mb-2">Beginner</h1>
-                    <div className="flex flex-wrap gap-8 mb-10 items-center">
+                    <h1 className="text-white mb-4 md:mb-1">Beginner</h1>
+                    <div className="flex flex-wrap gap-4 md:gap-8 mb-10 items-center">
                         {skills.map(el => (
                             el.progress === "beginner" &&
                             el.src
