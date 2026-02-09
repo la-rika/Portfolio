@@ -7,6 +7,13 @@ const Timeline = () => {
 
     const history = [
         {
+            title: "Apple",
+            subtitle: "Sales specialist",
+            skills: "Personalised experience for every customer | Sales | Store organization and refill",
+            date: "sep 2025 - jan 2026",
+            type: "job"
+        },
+        {
             title: "Accenture",
             subtitle: "Custom software engineer",
             skills: "React | BEM | Typerscript | tailwind | storybook",
